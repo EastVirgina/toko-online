@@ -11,20 +11,20 @@ A modern, responsive e-commerce web application built as a portfolio project. Fe
 
 ---
 
-## ✨ Features
+    Features
 
-- 🔍 **Product Search** — Real-time search by product name
-- 🏷️ **Category Filter** — Filter products by category
-- 🛒 **Shopping Cart** — Add, remove, and update item quantities
-- 💾 **Persistent Cart** — Cart data saved to localStorage (survives page refresh)
-- 📦 **Product Detail Page** — Full product info with rating display
-- 💰 **Order Summary** — Automatic subtotal, shipping, and total calculation
-- 📱 **Fully Responsive** — Works on mobile, tablet, and desktop
-- ⚡ **Fast Loading** — Skeleton-free UX with spinner feedback
+-     Product Search — Real-time search by product name
+-     Category Filter — Filter products by category
+-     Shopping Cart — Add, remove, and update item quantities
+-     Persistent Cart — Cart data saved to localStorage (survives page refresh)
+-     Product Detail Page — Full product info with rating display
+-     Order Summary — Automatic subtotal, shipping, and total calculation
+-     Fully Responsive — Works on mobile, tablet, and desktop
+-     Fast Loading — Skeleton-free UX with spinner feedback
 
 ---
 
-## 🛠️ Tech Stack
+    Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -38,7 +38,7 @@ A modern, responsive e-commerce web application built as a portfolio project. Fe
 
 ---
 
-## 📁 Project Structure
+    Project Structure
 
 ```
 src/
@@ -74,13 +74,13 @@ src/
 
 ---
 
-## 🚀 Getting Started
+- Getting Started
 
-### Prerequisites
+    Prerequisites
 
 Make sure you have **Node.js v18+** installed.
 
-### Installation
+    Installation
 
 ```bash
 # 1. Clone the repository
@@ -98,7 +98,7 @@ npm run dev
 
 Open **http://localhost:5173** in your browser.
 
-### Build for Production
+    Build for Production
 
 ```bash
 npm run build
@@ -106,9 +106,9 @@ npm run build
 
 ---
 
-## 🔧 Key Implementation Details
+    Key Implementation Details
 
-### State Management with Zustand
+    State Management with Zustand
 
 Cart state is managed globally using Zustand with the `persist` middleware, which automatically syncs to `localStorage`.
 
@@ -127,13 +127,13 @@ const useCartStore = create(
 );
 ```
 
-### Custom Hook for Data Fetching
+    Custom Hook for Data Fetching
 
 ```js
 const { products, loading, error } = useProducts();
 ```
 
-### Path Alias `@`
+    Path Alias `@`
 
 ```js
 import Button from '@/components/ui/Button';
@@ -141,13 +141,13 @@ import Button from '@/components/ui/Button';
 
 ---
 
-## 📝 License
+    License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙋 Author
+    Author
 
 **Asamp**
 
