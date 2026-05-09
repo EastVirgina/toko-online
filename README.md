@@ -7,7 +7,7 @@
 
 A modern, responsive e-commerce web application built as a portfolio project. Features product browsing, search & filtering, a fully functional shopping cart with persistent storage, and a clean UI/UX design.
 
-    🔗 **Live Demo:** [https://toko-online-b8w2tz3fw-eastvirginas-projects.vercel.app](https://toko-online-b8w2tz3fw-eastvirginas-projects.vercel.app)
+    🔗 **Live Demo:** [TokoOnline App](https://toko-online-b8w2tz3fw-eastvirginas-projects.vercel.app)
 
 ---
 
